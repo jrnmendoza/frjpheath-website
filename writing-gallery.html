@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Approach B: Large Visual Gallery — Fr. JP Heath</title>
+  <meta name="description" content="Approach B prototype: Large horizontally scrollable visual galleries for Faith, Facilitation and Flavours.">
+  <link rel="icon" href="assets/JP-logo-120x120.png" type="image/png">
+  <link rel="stylesheet" href="css/hybrid-styles.css">
+</head>
+<body>
+
+  <!-- Prototype Switcher -->
+  <div class="prototype-approach-bar">
+    <div class="approach-bar-inner">
+      <span class="approach-label">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+        Discovery Prototype Mode:
+      </span>
+      <div class="approach-switcher">
+        <a href="writing-grid.html" class="approach-btn">Approach A: Editorial Grid</a>
+        <a href="writing-gallery.html" class="approach-btn active">Approach B: Visual Gallery</a>
+        <a href="writing.html" class="approach-btn">Approach C: Hybrid (Recommended)</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="hybrid-header scrolled" role="banner">
+    <div class="brand-area">
+      <a href="index.html" class="brand-name">Fr. JP Heath</a>
+      <span class="brand-meta">Approach B · Visual Gallery</span>
+    </div>
+    <nav aria-label="Primary navigation">
+      <ul class="nav-links-desktop">
+        <li><a href="index.html">The Story</a></li>
+        <li><a href="#gallery-faith">Faith Gallery</a></li>
+        <li><a href="#gallery-facilitation">Facilitation Gallery</a></li>
+        <li><a href="#gallery-flavours">Flavours Gallery</a></li>
+        <li><a href="writing.html">Approach C &rarr;</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content" style="padding-top: 3.5rem;">
+    <!-- Masthead -->
+    <section class="anchor-inner" style="margin-bottom: 4rem;">
+      <span class="anchor-eyebrow">Approach B — Visual Storytelling</span>
+      <h1 class="anchor-title" style="font-size: clamp(2.5rem, 4.8vw, 4rem); margin-bottom: 1.25rem;">Visual Horizontal Galleries</h1>
+      <p class="anchor-lead" style="margin-bottom: 0;">
+        Experience Fr. JP’s writing through wide, swipeable visual galleries for each world. Designed for touch screens, visual rhythm, and documentary photography.
+      </p>
+    </section>
+
+    <!-- 01. FAITH HORIZONTAL GALLERY -->
+    <section id="gallery-faith" class="gallery-world-wrapper" style="background-color: var(--canvas-alt);">
+      <div class="anchor-inner">
+        <div class="world-header-banner">
+          <div class="world-title-lockup">
+            <span class="world-title-descriptor">World 01 · Contemplative Horizons</span>
+            <h2>Faith Gallery</h2>
+          </div>
+          <span style="font-family: var(--font-sans); font-size: 0.85rem; color: var(--ink-secondary);">Swipe or scroll horizontally &rarr;</span>
+        </div>
+
+        <div class="gallery-scroll-container">
+          <!-- Card 1 -->
+          <article class="gallery-full-card">
+            <img src="assets/64145DF5-674A-4D94-8031-BBB19D1C6357.png" alt="Be the Light: A Resurrection Reflection" class="gallery-card-img">
+            <div class="gallery-card-body">
+              <div>
+                <span class="article-category-badge" style="margin-bottom: 0.75rem;">Sermon · Eastertide</span>
+                <h3 style="font-family: var(--font-display); font-size: 1.45rem; line-height: 1.2; margin-bottom: 0.75rem; font-weight: 500;">
+                  <a href="article.html?slug=be-the-light-a-resurrection-reflection-through-the-eyes-of-the-first-witnesses">Be the Light: A Resurrection Reflection</a>
+                </h3>
+                <p style="font-size: 0.9rem; color: var(--ink-secondary); line-height: 1.55; margin-bottom: 1.25rem;">
+                  Examining the grief, wonder, and quiet courage of the first women entering the empty dawn garden.
+                </p>
+              </div>
+              <a href="article.html?slug=be-the-light-a-resurrection-reflection-through-the-eyes-of-the-first-witnesses" style="font-family: var(--font-sans); font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent-terracotta);">Read Essay &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="gallery-full-card">
+            <img src="assets/Ash-Wednesday-EC-by-IvarsKupcis-22Feb2023-40.jpg" alt="Reflections on the Temptations of Christ" class="gallery-card-img">
+            <div class="gallery-card-body">
+              <div>
+                <span class="article-category-badge" style="margin-bottom: 0.75rem;">Liturgy · St. Petri</span>
+                <h3 style="font-family: var(--font-display); font-size: 1.45rem; line-height: 1.2; margin-bottom: 0.75rem; font-weight: 500;">
+                  <a href="article.html?slug=reflections-on-the-temptations-of-christ-a-lenten-sermon">Reflections on the Temptations of Christ</a>
+                </h3>
+                <p style="font-size: 0.9rem; color: var(--ink-secondary); line-height: 1.55; margin-bottom: 1.25rem;">
+                  Wrestling with the illusion of control, institutional hunger for power, and wilderness grace.
+                </p>
+              </div>
+              <a href="article.html?slug=reflections-on-the-temptations-of-christ-a-lenten-sermon" style="font-family: var(--font-sans); font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent-terracotta);">Read Essay &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="gallery-full-card">
+            <div style="height: 260px; background: #2B4154; display: flex; align-items: center; justify-content: center; padding: 2rem; text-align: center; color: #FFFFFF;">
+              <span style="font-family: var(--font-display); font-size: 1.8rem; font-style: italic;">“When physical presence withdraws, solidarity expands.”</span>
+            </div>
+            <div class="gallery-card-body">
+              <div>
+                <span class="article-category-badge" style="margin-bottom: 0.75rem;">Theology · Feast Day</span>
+                <h3 style="font-family: var(--font-display); font-size: 1.45rem; line-height: 1.2; margin-bottom: 0.75rem; font-weight: 500;">
+                  <a href="article.html?slug=ascension-day-finding-hope-and-unity-in-separation">Ascension Day: Finding Hope and Unity</a>
+                </h3>
+                <p style="font-size: 0.9rem; color: var(--ink-secondary); line-height: 1.55; margin-bottom: 1.25rem;">
+                  Understanding departure not as abandonment, but as the universal empowerment of community.
+                </p>
+              </div>
+              <a href="article.html?slug=ascension-day-finding-hope-and-unity-in-separation" style="font-family: var(--font-sans); font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent-terracotta);">Read Essay &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="gallery-full-card">
+            <div style="height: 260px; background: #A15942; display: flex; align-items: center; justify-content: center; padding: 2rem; text-align: center; color: #FFFFFF;">
+              <span style="font-family: var(--font-display); font-size: 1.8rem; font-style: italic;">“From the Skeleton Coast to Windhoek.”</span>
+            </div>
+            <div class="gallery-card-body">
+              <div>
+                <span class="article-category-badge" style="margin-bottom: 0.75rem;">Mission · Southern Africa</span>
+                <h3 style="font-family: var(--font-display); font-size: 1.45rem; line-height: 1.2; margin-bottom: 0.75rem; font-weight: 500;">
+                  <a href="article.html?slug=bringing-bibles-to-namibia-a-journey-of-faith-and-giving">Bringing Bibles to Namibia</a>
+                </h3>
+                <p style="font-size: 0.9rem; color: var(--ink-secondary); line-height: 1.55; margin-bottom: 1.25rem;">
+                  A 60th birthday expedition distributing scripture across remote rural dioceses.
+                </p>
+              </div>
+              <a href="article.html?slug=bringing-bibles-to-namibia-a-journey-of-faith-and-giving" style="font-family: var(--font-sans); font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent-terracotta);">Read Essay &rarr;</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02. FACILITATION HORIZONTAL GALLERY -->
+    <section id="gallery-facilitation" class="gallery-world-wrapper" style="background-color: var(--canvas);">
+      <div class="anchor-inner">
+        <div class="world-header-banner">
+          <div class="world-title-lockup">
+            <span class="world-title-descriptor">World 02 · Documentary Presence</span>
+            <h2>Facilitation Gallery</h2>
+          </div>
+          <span style="font-family: var(--font-sans); font-size: 0.85rem; color: var(--ink-secondary);">Swipe or scroll horizontally &rarr;</span>
+        </div>
+
+        <div class="gallery-scroll-container">
+          <!-- Card 1 -->
+          <article class="gallery-full-card">
+            <img src="assets/IMG_2581.jpeg" alt="Fr. JP on ship deck in Malmö harbor" class="gallery-card-img">
+            <div class="gallery-card-body">
+              <div>
+                <span class="article-category-badge" style="margin-bottom: 0.75rem;">Maritime Ministry · 2025</span>
+                <h3 style="font-family: var(--font-display); font-size: 1.45rem; line-height: 1.2; margin-bottom: 0.75rem; font-weight: 500;">
+                  <a href="article.html?slug=the-heart-of-the-harbor-my-ministry-to-global-seafarers">The Heart of the Harbor</a>
+                </h3>
+                <p style="font-size: 0.9rem; color: var(--ink-secondary); line-height: 1.55; margin-bottom: 1.25rem;">
+                  Visiting international merchant crews aboard bulk carriers docked in Malmö's industrial harbour.
+                </p>
+              </div>
+              <a href="article.html?slug=the-heart-of-the-harbor-my-ministry-to-global-seafarers" style="font-family: var(--font-sans); font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent-terracotta);">Read Dispatch &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="gallery-full-card">
+            <img src="assets/Tutu-with-JP.jpg" alt="Fr. JP Heath with Archbishop Desmond Tutu" class="gallery-card-img">
+            <div class="gallery-card-body">
+              <div>
+                <span class="article-category-badge" style="margin-bottom: 0.75rem;">Human Rights · Geneva</span>
+                <h3 style="font-family: var(--font-display); font-size: 1.45rem; line-height: 1.2; margin-bottom: 0.75rem; font-weight: 500;">
+                  <a href="article.html?slug=bridging-theology-and-human-rights-through-literature">Bridging Theology and Human Rights</a>
+                </h3>
+                <p style="font-size: 0.9rem; color: var(--ink-secondary); line-height: 1.55; margin-bottom: 1.25rem;">
+                  Advocating for bodily integrity, sexual diversity, and ecumenical courage in international forums.
+                </p>
+              </div>
+              <a href="article.html?slug=bridging-theology-and-human-rights-through-literature" style="font-family: var(--font-sans); font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent-terracotta);">Read Dispatch &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="gallery-full-card">
+            <img src="assets/2554461E-3E43-410C-9FD0-2E5135DBE3E2.png" alt="A Call to Compassion and Action: 40 Years into the HIV/AIDS Epidemic" class="gallery-card-img">
+            <div class="gallery-card-body">
+              <div>
+                <span class="article-category-badge" style="margin-bottom: 0.75rem;">Health Advocacy · 2024</span>
+                <h3 style="font-family: var(--font-display); font-size: 1.45rem; line-height: 1.2; margin-bottom: 0.75rem; font-weight: 500;">
+                  <a href="article.html?slug=a-call-to-compassion-and-action-40-years-into-the-hiv-aids-epidemic">A Call to Compassion and Action</a>
+                </h3>
+                <p style="font-size: 0.9rem; color: var(--ink-secondary); line-height: 1.55; margin-bottom: 1.25rem;">
+                  Four decades into HIV: transforming theological stigma into compassionate community support.
+                </p>
+              </div>
+              <a href="article.html?slug=a-call-to-compassion-and-action-40-years-into-the-hiv-aids-epidemic" style="font-family: var(--font-sans); font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent-terracotta);">Read Dispatch &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="gallery-full-card">
+            <div style="height: 260px; background: #35424C; display: flex; align-items: center; justify-content: center; padding: 2rem; text-align: center; color: #FFFFFF;">
+              <span style="font-family: var(--font-display); font-size: 1.8rem; font-style: italic;">“From silence in Mayfair to solidarity across the globe.”</span>
+            </div>
+            <div class="gallery-card-body">
+              <div>
+                <span class="article-category-badge" style="margin-bottom: 0.75rem;">Personal Testimony</span>
+                <h3 style="font-family: var(--font-display); font-size: 1.45rem; line-height: 1.2; margin-bottom: 0.75rem; font-weight: 500;">
+                  <a href="article.html?slug=my-hiv-journey-as-a-priest-from-silence-to-solidarity">From Silence to Solidarity</a>
+                </h3>
+                <p style="font-size: 0.9rem; color: var(--ink-secondary); line-height: 1.55; margin-bottom: 1.25rem;">
+                  Living with HIV as an ordained Anglican priest since 2000; breaking ecclesiastical taboos.
+                </p>
+              </div>
+              <a href="article.html?slug=my-hiv-journey-as-a-priest-from-silence-to-solidarity" style="font-family: var(--font-sans); font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent-terracotta);">Read Dispatch &rarr;</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03. FLAVOURS HORIZONTAL GALLERY -->
+    <section id="gallery-flavours" class="gallery-world-wrapper" style="background-color: #FAF6F0;">
+      <div class="anchor-inner">
+        <div class="world-header-banner" style="border-bottom-color: #C47B4A;">
+          <div class="world-title-lockup">
+            <span class="world-title-descriptor" style="color: #C47B4A;">World 03 · The Shared Table</span>
+            <h2>Flavours Gallery</h2>
+          </div>
+          <span style="font-family: var(--font-sans); font-size: 0.85rem; color: var(--ink-secondary);">Swipe or scroll horizontally &rarr;</span>
+        </div>
+
+        <div class="gallery-scroll-container">
+          <!-- Card 1 -->
+          <article class="gallery-full-card" style="background: #FFFFFF;">
+            <img src="assets/ossobuco-flesh-calf-2535546.jpg" alt="Slow-cooked Osso Buco with pasta on dining table" class="gallery-card-img">
+            <div class="gallery-card-body">
+              <div>
+                <span class="article-category-badge" style="background-color: #FAF0E6; color: #C47B4A; margin-bottom: 0.75rem;">Living Tradition · Recipes</span>
+                <h3 style="font-family: var(--font-display); font-size: 1.45rem; line-height: 1.2; margin-bottom: 0.75rem; font-weight: 500;">
+                  <a href="article.html?slug=osso-buco">Osso Buco: Slow-Braised Veal</a>
+                </h3>
+                <p style="font-size: 0.9rem; color: var(--ink-secondary); line-height: 1.55; margin-bottom: 1.25rem;">
+                  A warm sensory reflection on rich broth, patience, and hospitality as everyday sacramental practice.
+                </p>
+              </div>
+              <a href="article.html?slug=osso-buco" style="font-family: var(--font-sans); font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: #C47B4A;">Read Recipe &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Card 2: Upcoming Table Piece -->
+          <article class="gallery-full-card" style="background: #FFFFFF; border-style: dashed;">
+            <div style="height: 260px; background: #FAF2EB; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 2rem; text-align: center;">
+              <span style="font-family: var(--font-display); font-size: 1.8rem; color: var(--ink-muted); font-style: italic;">“Cape Flavours &amp; Spices”</span>
+              <span style="font-family: var(--font-sans); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--ink-muted); margin-top: 0.5rem;">In Preparation</span>
+            </div>
+            <div class="gallery-card-body">
+              <div>
+                <span class="article-category-badge" style="margin-bottom: 0.75rem;">Upcoming Reflection</span>
+                <h3 style="font-family: var(--font-display); font-size: 1.45rem; line-height: 1.2; margin-bottom: 0.75rem; font-weight: 500;">
+                  South African Roots &amp; Table Grace
+                </h3>
+                <p style="font-size: 0.9rem; color: var(--ink-secondary); line-height: 1.55; margin-bottom: 1.25rem;">
+                  How recipes traveled across oceans from Cape Town to Sweden, keeping fellowship alive.
+                </p>
+              </div>
+              <span style="font-family: var(--font-sans); font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-muted);">Forthcoming Piece</span>
+            </div>
+          </article>
+
+          <!-- Card 3: Nordic Table -->
+          <article class="gallery-full-card" style="background: #FFFFFF; border-style: dashed;">
+            <div style="height: 260px; background: #F4EBE2; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 2rem; text-align: center;">
+              <span style="font-family: var(--font-display); font-size: 1.8rem; color: var(--ink-muted); font-style: italic;">“Winter Fika in Skåne”</span>
+              <span style="font-family: var(--font-sans); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--ink-muted); margin-top: 0.5rem;">In Preparation</span>
+            </div>
+            <div class="gallery-card-body">
+              <div>
+                <span class="article-category-badge" style="margin-bottom: 0.75rem;">Upcoming Reflection</span>
+                <h3 style="font-family: var(--font-display); font-size: 1.45rem; line-height: 1.2; margin-bottom: 0.75rem; font-weight: 500;">
+                  Cardamom, Coffee &amp; Quiet Solitude
+                </h3>
+                <p style="font-size: 0.9rem; color: var(--ink-secondary); line-height: 1.55; margin-bottom: 1.25rem;">
+                  Reflections on Swedish winter afternoons and how warmth is shared over hot cups and cardamom.
+                </p>
+              </div>
+              <span style="font-family: var(--font-sans); font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-muted);">Forthcoming Piece</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Switcher -->
+    <div style="text-align: center; padding: 4rem 2rem; background: var(--canvas-dark); color: #FFFFFF;">
+      <p style="font-family: var(--font-display); font-size: 1.8rem; margin-bottom: 1rem;">Compare With The Other Approaches</p>
+      <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+        <a href="writing-grid.html" class="approach-btn" style="padding: 0.75rem 1.5rem; font-size: 0.9rem;">View Approach A: Editorial Grid &rarr;</a>
+        <a href="writing.html" class="approach-btn" style="padding: 0.75rem 1.5rem; font-size: 0.9rem; background: var(--accent-terracotta);">View Approach C: Hybrid &rarr;</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="v3-colophon" role="contentinfo">
+    <div class="colophon-inner">
+      <div class="colophon-bottom" style="border-top: none; padding-top: 0;">
+        <div>&copy; 2026 Fr. JP Heath · Approach B (Large Visual Gallery Prototype)</div>
+        <div><a href="index.html" style="color: var(--ink-light); text-decoration: underline;">Return to Story Homepage &rarr;</a></div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -2861,13 +2861,20 @@ a:focus-visible, button:focus-visible, input:focus-visible {
     grid-template-columns: 1fr;
     gap: 1.25rem;
   }
+  .media-card-body {
+    padding: 1.15rem 1.25rem 1.25rem;
+  }
+  .media-photo-credit {
+    padding: 0.35rem 1.25rem;
+  }
 }
 
 .media-news-card {
   background-color: #FFFFFF;
   border: 1px solid var(--rule, #E2DBD0);
   border-radius: 8px;
-  padding: 1.75rem 1.65rem;
+  padding: 0;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   box-shadow: 0 2px 8px rgba(0,0,0,0.03);
@@ -2879,6 +2886,76 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   transform: translateY(-3px);
   box-shadow: 0 12px 28px rgba(0,0,0,0.07);
   border-color: #D3C9BC;
+}
+
+.media-card-image-wrap {
+  width: 100%;
+  position: relative;
+  background-color: #EAE6DF;
+  border-bottom: 1px solid rgba(28, 46, 42, 0.08);
+  overflow: hidden;
+}
+
+.media-card-image-link {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  position: relative;
+  background-color: #ECE7DF;
+}
+
+.media-card-image-link img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.media-news-card:hover .media-card-image-link img {
+  transform: scale(1.035);
+}
+
+/* Custom focal positions preserving faces & subjects */
+.media-card-image-link img.media-img-svt {
+  object-position: center 25%;
+}
+
+.media-card-image-link img.media-img-sr-p4 {
+  object-position: center 20%;
+}
+
+.media-card-image-link img.media-img-sr-national {
+  object-position: center center;
+}
+
+.media-card-image-link img.media-img-dagen {
+  object-position: center center;
+}
+
+.media-card-image-link img.media-img-sjomannen {
+  object-position: center top;
+}
+
+.media-photo-credit {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  line-height: 1.35;
+  color: var(--ink-muted, #7A827E);
+  background: rgba(245, 242, 235, 0.9);
+  padding: 0.35rem 1.65rem;
+  letter-spacing: 0.01em;
+  font-style: italic;
+  border-top: 1px solid rgba(28, 46, 42, 0.04);
+}
+
+.media-card-body {
+  padding: 1.35rem 1.65rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .media-card-header {
